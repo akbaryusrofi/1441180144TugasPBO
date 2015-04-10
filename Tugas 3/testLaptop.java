@@ -1,5 +1,11 @@
 class testLaptop  {
 	public static void main(String[] args) {
+
+
+	
+
+
+
 		laptop thosiba = new laptop();
 	System.out.println("Merk = "+ thosiba.getMerk());
 	System.out.println("color = " + thosiba.getWarna());
@@ -26,6 +32,8 @@ laptop lenovo = new laptop("lenovo","Putih","Terkoneksi",90);
 	System.out.println("Status Batrai = "+ lenovo.getWarna()+"%");
 	System.out.println("");
 
+	
+	acer.menyala();
 
 
 
